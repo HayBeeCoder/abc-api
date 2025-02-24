@@ -15,6 +15,13 @@ _creatures = [
         description="Long-necked and scaly",
         aka="Nessie",
     ),
+    Creature(
+        name="yeti",
+        country="Nepal",
+        area="Himalayas",
+        description="Tall, white, furry",
+        aka="Abominable Snowman",
+    ),
 ]
 
 

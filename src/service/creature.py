@@ -7,7 +7,7 @@ def get_all() -> list[Creature]:
 
 
 def get_one(name: str) -> Creature | None:
-    return data.get(id)
+    return data.get_one(name)
 
 
 def create(creature: Creature) -> Creature:
